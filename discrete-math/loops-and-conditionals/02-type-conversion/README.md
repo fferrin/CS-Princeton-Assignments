@@ -37,4 +37,5 @@ yellow  = 0.0
 black   = 1.1
 ```
 
+---------------------
 *[From COS 126: Introduction to Computer Science, Princeton University]*

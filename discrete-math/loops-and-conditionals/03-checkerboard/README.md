@@ -23,4 +23,5 @@ characters (alternating between asterisks and spaces).
 * * * * *
 ```
 
+---------------------
 *[From COS 126: Introduction to Computer Science, Princeton University]*

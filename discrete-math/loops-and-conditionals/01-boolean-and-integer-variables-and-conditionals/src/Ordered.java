@@ -1,7 +1,7 @@
 
 /**
  * Compilation:  javac Ordered.java
- * Execution:    java Ordered 1 2 3
+ * Execution:    java Ordered N1 N2 N3
  * Dependencies:
  *
  * Check if three integers are either in strictly ascending order or in strictly
@@ -19,7 +19,7 @@ public class Ordered {
      * @param b second integer
      * @param c third integer
      * @return true if numbers are in strictly ascending or descending order.
-     * False otherwise.
+     * False otherwise
      */
     public boolean isOrdered(int a, int b, int c) {
         if ((a < b && b < c) || (c < b && b < a)) return true;
@@ -29,8 +29,8 @@ public class Ordered {
     /**
      * Check if the input is valid.
      *
-     * @param input of the program.
-     * @return true if the input is valid. False otherwise.
+     * @param input of the program
+     * @return true if the input is valid. False otherwise
      */
     public boolean validInput(String[] input) {
         if (input.length != 3) return false;
@@ -49,7 +49,7 @@ public class Ordered {
     /**
      * Main program.
      *
-     * @param args input values from command line.
+     * @param args input values from command line
      */
     public static void main(String[] args) {
         Ordered o = new Ordered();

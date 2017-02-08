@@ -1,7 +1,7 @@
 
 /**
  * Compilation:  javac RGBtoCMYK.java
- * Execution:    java RGBtoCMYK 1 2 3
+ * Execution:    java RGBtoCMYK R G B
  * Dependencies:
  *
  * Convert RGB integers to equivalent CMYK parameters.
@@ -27,8 +27,8 @@ public class RGBtoCMYK {
     /**
      * Check if the input is valid.
      *
-     * @param RBG integer values.
-     * @return true if the input is valid. False otherwise.
+     * @param RBG integer values
+     * @return true if the input is valid. False otherwise
      */
     public boolean validInput(String[] input) {
         if (input.length != 3) return false;
@@ -53,9 +53,9 @@ public class RGBtoCMYK {
     /**
      * Convert RGB valus to equivalent CMYK values.
      *
-     * @param R red value.
-     * @param G green value.
-     * @param B blue value.
+     * @param R red value
+     * @param G green value
+     * @param B blue value
      * @return array of doubles with CMYK values.
      */
     public double[] convert(int R, int G, int B) {
@@ -82,7 +82,7 @@ public class RGBtoCMYK {
     /**
      * Main program.
      *
-     * @param args input values from command line.
+     * @param args input values from command line
      */
     public static void main(String[] args) {
         RGBtoCMYK rgb = new RGBtoCMYK();

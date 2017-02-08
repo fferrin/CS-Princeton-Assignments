@@ -18,7 +18,7 @@ public class Checkerboard {
      * Check if the input is valid.
      *
      * @param value N
-     * @return true if the input is valid. False otherwise.
+     * @return true if the input is valid. False otherwise
      */
     public boolean validInput(String[] input) {
         if (input.length != 1) return false;
@@ -34,8 +34,8 @@ public class Checkerboard {
     /**
      * Make the board.
      *
-     * @param size N of the board.
-     * @return string array with the board.
+     * @param size N of the board
+     * @return string array with the board
      */
     private String[] makeBoard(int N) {
         ArrayList<String> s = new ArrayList<>();
@@ -52,7 +52,7 @@ public class Checkerboard {
     /**
      * Draw the board.
      *
-     * @param size N of the board.
+     * @param size N of the board
      */
     public void draw(int N) {
         for (String s : makeBoard(N))
@@ -62,7 +62,7 @@ public class Checkerboard {
     /**
      * Main program.
      *
-     * @param args input values from command line.
+     * @param args input values from command line
      */
     public static void main(String[] args) {
         Checkerboard c = new Checkerboard();
